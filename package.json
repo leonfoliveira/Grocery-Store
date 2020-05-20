@@ -12,7 +12,7 @@
     "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}",
     "test": "jest --watch",
     "coverage": "jest --coverage",
-    "export": "yarn build && next export"
+    "export": "next build && next export"
   },
   "dependencies": {
     "@storybook/react": "^5.3.18",
