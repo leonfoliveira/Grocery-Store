@@ -2,11 +2,13 @@
   Grocery Store
 </h1>
 
-![Preview](preview/preview1.png)
-
 <h2 align="center"> :books: About </h2 align="center">
 
 <p align="center"> Grocery Store front end application using NextJS. </p>
+
+<h2 align="center"> :computer: Preview </h2 align="center">
+
+![Preview](preview/preview1.png)
 
 <h2 align="center"> :rocket: Technologies </h2>
 
