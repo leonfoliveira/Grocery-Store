@@ -1,16 +1,17 @@
 <h1 align="center">
-  NextJS Template
+  Grocery Store
 </h1>
 
-[![Next.js](https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js.png)](https://github.com/zeit/next.js)
+![Preview](preview/preview1.png)
 
 <h2 align="center"> :books: About </h2 align="center">
 
-<p align="center"> NextJS template fully configurated with typescript and ready for development. </p>
+<p align="center"> Grocery Store front end application using NextJS. </p>
 
-<h2 align="center"> :rocket: Packages </h2>
+<h2 align="center"> :rocket: Technologies </h2>
 
-<p align="center">Storybook</p>
+<p align="center">NextJS</p>
+<p align="center">Redux</p>
 <p align="center">Sass</p>
 <p align="center">Jest</p>
 <p align="center">Eslint</p>
