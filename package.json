@@ -1,7 +1,7 @@
 {
   "name": "grocery-wa",
   "version": "1.0.0",
-  "main": "src/pages/index.js",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "dev": "next",
@@ -12,8 +12,7 @@
     "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}",
     "test": "jest --watch",
     "coverage": "jest --coverage",
-    "export": "next export",
-    "deploy": "npm run build && npm run export"
+    "deploy": "next build && next export"
   },
   "dependencies": {
     "@storybook/react": "^5.3.18",
