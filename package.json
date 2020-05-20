@@ -12,7 +12,8 @@
     "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}",
     "test": "jest --watch",
     "coverage": "jest --coverage",
-    "export": "next build && next export"
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
   },
   "dependencies": {
     "@storybook/react": "^5.3.18",
