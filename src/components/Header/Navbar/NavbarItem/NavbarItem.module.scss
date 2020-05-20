@@ -1,0 +1,20 @@
+.container {
+  padding: 0 20px;
+  background-color: var(--green);
+  cursor: pointer;
+
+  p {
+    line-height: 50px;
+    color: var(--white);
+  }
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.highlight {
+  background-color: var(--brown);
+  font-weight: bold;
+  text-transform: uppercase;
+}

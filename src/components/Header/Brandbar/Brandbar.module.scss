@@ -1,0 +1,12 @@
+.container {
+  height: calc(var(--brandbar-height) - 3px);
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.image {
+  height: 100%;
+}

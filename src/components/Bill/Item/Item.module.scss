@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+}
+
+.title {
+  margin: 0 10px;
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.image {
+  width: 50px;
+  position: relative;
+
+  img {
+    max-width: 50px;
+    max-height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.price {
+  font-size: 0.9rem;
+}
+
+.remove {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 1.5rem;
+
+  path {
+    color: var(--red);
+  }
+}

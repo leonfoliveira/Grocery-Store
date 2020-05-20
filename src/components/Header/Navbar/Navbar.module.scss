@@ -1,0 +1,14 @@
+.container {
+  height: 50px;
+  background-color: var(--green);
+  box-shadow: 0 4px 2px 0 #00000033;
+
+  position: sticky;
+  top: 0;
+  width: 100%;
+
+  z-index: 5;
+
+  display: flex;
+  justify-content: center;
+}
