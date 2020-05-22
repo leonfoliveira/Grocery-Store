@@ -8,6 +8,8 @@
 
 <h2 align="center"> :computer: Preview </h2 align="center">
 
+<p align="center"> https://next-grocerystore.netlify.app/ </p>
+
 ![Preview](preview/preview1.png)
 
 <h2 align="center"> :rocket: Technologies </h2>
