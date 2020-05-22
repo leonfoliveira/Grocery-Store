@@ -11,4 +11,62 @@
 
   display: flex;
   justify-content: center;
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.hamburguer {
+  display: none;
+}
+
+.items {
+  display: flex;
+}
+
+.closed,
+.opened {
+  display: flex;
+}
+
+@media (max-width: 728px) {
+  .container {
+    justify-content: flex-start;
+  }
+
+  .hamburguer {
+    height: 100%;
+    width: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+
+    path {
+      color: var(--white);
+    }
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .closed {
+    display: none;
+  }
+
+  .opened {
+    display: flex;
+    flex-direction: column;
+  }
 }
