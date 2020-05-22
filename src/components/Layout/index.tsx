@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { capitalize } from '@/helpers/string';
 
 import Header from '@/components/Header';
 
@@ -11,7 +12,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children, title }) => (
   <div className={styles.container}>
     <Head>
-      <title>{title} - Redux Supermarket</title>
+      <title>{capitalize(title)} - Grocery Store</title>
     </Head>
     <Header />
     <main>{children}</main>
